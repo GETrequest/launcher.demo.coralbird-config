@@ -1,3 +1,30 @@
 {
-    
+    "launcherIcon": {
+        "collapsed": "keyboard_arrow_up",
+        "expanded": "keyboard_arrow_down"
+    },
+    "touchpoint" :{
+        "label": "Kundenportal"
+      },
+    "externalStyle": "customStyle.css",
+    "apps": [
+        {
+            "icon": "view_quilt",
+            "type": "web",
+            "label": "Dashboard",
+            "url": "http:"
+        },
+        {
+            "icon": "business",
+            "type": "web",
+            "label": "Immobilien",
+            "url": "https://portal-dev01.vs3plus.de/agency-001/immobilien"
+        },
+        {
+            "icon": "event",
+            "type": "web",
+            "label": "Termine",
+            "url": "https://portal-dev01.vs3plus.de/agency-001/termine"
+        }
+    ]
 }
