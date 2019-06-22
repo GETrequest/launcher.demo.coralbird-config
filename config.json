@@ -1,0 +1,30 @@
+{
+    "launcherIcon": {
+        "collapsed": "keyboard_arrow_up",
+        "expanded": "keyboard_arrow_down"
+    },
+    "touchpoint" :{
+        "label": "Kundenportal"
+      },
+    "externalStyle": "customStyle.css",
+    "apps": [
+        {
+            "icon": "view_quilt",
+            "type": "web",
+            "label": "Dashboard",
+            "url": "https://de.wikipedia.org/wiki/Th%C3%BCringen"
+        },
+        {
+            "icon": "business",
+            "type": "web",
+            "label": "Immobilien",
+            "url": "https://statistik.thueringen.de/presse/pr_kurzinh.asp"
+        },
+        {
+            "icon": "event",
+            "type": "web",
+            "label": "Termine",
+            "url": "https://www.wahlen.thueringen.de/datenbank/wahl1/WAHL.asp?wahlart=EW&wJahr=2019"
+        }
+    ]
+}

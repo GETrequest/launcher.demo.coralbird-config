@@ -1,0 +1,236 @@
+/* //////// */
+
+/* Launcher */
+
+/* //////// */
+
+/* Change colors:
+  Launcher: 13
+  Hover states: 43–55
+*/
+
+.cubbles-cubx-launcher_cubx-launcher-root {
+    display: flex;
+    background-color: #Cb1f32;
+    border-radius: 100%;
+    right: 15px;
+    bottom: 15px;
+    top: inherit;
+    /*reset*/
+    -webkit-transform: inherit;
+    transform: inherit;
+    width: 60px;
+    height: 60px;
+    z-index: 999;
+    transition: all .3s cubic-bezier(.25, .8, .25, 1);
+  }
+  
+  .cubbles-cubx-launcher_cubx-launcher-root .cubbles-cubx-launcher_material-icons {
+    display: inline-block!important;
+    position: absolute;
+    transform: scale(1);
+  }
+  
+  .cubbles-cubx-launcher_material-icons_hidden {
+    transform: scale(0)!important;
+  }
+  
+  .cubbles-cubx-launcher_cubx-launcher-root:hover {
+    background-color: #Cb1f32;
+  }
+  
+  .expanded {
+    background-color: #Cb1f32;
+  }
+  
+  .expanded:hover {
+    background-color: #Cb1f32;
+  }
+  
+  .cubbles-cubx-launcher_cubx-launcher-root i {
+    color: #fff;
+  }
+  
+  /* ////////////// */
+  
+  /* Launcher Icons */
+  
+  /* ////////////// */
+  
+  .cubbles-cubx-launcher_material-icons {
+    transition: transform .4s ease-in-out;
+    opacity: 1;
+  }
+  
+  /* ////////////// */
+  
+  /* Menu Container */
+  
+  /* ////////////// */
+  
+  .cubbles-cubx-launcher_cubx-launcher-menu {
+    //-webkit-transform: translateY(-50%);
+    //transform: translateY(-50%); */
+    // display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    //right: 10px;
+    //width: 50px;
+    //height: 50px;
+    right: 0;
+  }
+  
+  /* Menu Container Top */
+  
+  /*
+  .cubbles-cubx-launcher_cubx-launcher-menu {
+    transform: inherit;
+    position: fixed;
+    right: 70px;
+    top: 10px;
+    z-index: 99999999;
+  }
+  */
+  
+  /* Menu Container Centered */
+  
+  /*
+  .cubbles-cubx-launcher_cubx-launcher-menu {
+    position: fixed;
+    right: 70px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  */
+  
+  /* Menu Container Bottom */
+  
+  .cubbles-cubx-launcher_cubx-launcher-menu {
+    transform: inherit;
+    position: fixed;
+    top: inherit;
+    bottom: 50px;
+    margin: 10px;
+    z-index: 999999;
+  }
+  
+  /* ////////// */
+  
+  /* Menu Icons */
+  
+  /* ////////// */
+  
+  .cubbles-cubx-launcher_cubx-launcher-menu>div {
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .cubbles-cubx-launcher_cubx-launcher-menu :nth-child(1) {
+    transition-delay: 0s;
+  }
+  
+  .cubbles-cubx-launcher_cubx-launcher-menu :nth-child(2) {
+    transition-delay: .1s;
+  }
+  
+  .cubbles-cubx-launcher_cubx-launcher-menu :nth-child(3) {
+    transition-delay: .2s;
+  }
+  
+  .cubbles-cubx-launcher_cubx-launcher-menu :nth-child(4) {
+    transition-delay: .3s;
+  }
+  
+  .cubbles-cubx-launcher_cubx-launcher-menu ul:last-child {
+    margin-bottom: 15px;
+  }
+  
+  .cubbles-cubx-launcher_cubx-launcher-app-icon {
+    transition: margin-bottom .2s ease-in-out, opacity .2s, transform .4s;
+    background: #Cb1f32;
+    margin: 0;
+    margin-bottom: 5px;
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+  
+  .cubbles-cubx-launcher_cubx-launcher-app-icon:hover {
+    background: #Cb1f32;
+  }
+  
+  .cubbles-cubx-launcher_launcher-menu_hidden {
+    display: inline-block!important;
+    z-index: 1;
+    pointer-events: none;
+  }
+  
+  .cubbles-cubx-launcher_launcher-menu_hidden .cubbles-cubx-launcher_cubx-launcher-app-icon {
+    transform: rotate(-0deg);
+  }
+  
+  .cubbles-cubx-launcher_launcher-menu_hidden .cubbles-cubx-launcher_cubx-launcher-app-icon {
+    margin-bottom: -50px;
+    opacity: 0;
+  }
+  
+  .cubbles-cubx-launcher_cubx-launcher-modal {
+    transition: transform .6s ease-in-out;
+    transform: translateX(0vh);
+    box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.30);
+  }
+  
+  .cubbles-cubx-launcher_launcher-modal_hidden {
+    display: block;
+    transform: translateY(100vh);
+  }
+  
+  /* .cubbles-cubx-launcher_cubx-launcher-modal-content {
+  } */
+  
+  .cubbles-cubx-launcher_cubx-launcher-modal-content [data-content-anchor] {
+    box-shadow: 0 0px 46px rgba(0, 0, 0, 0.30), 0 0px 26px rgba(0, 0, 0, 0.22);
+  }
+  
+  .cubbles-cubx-launcher_cubx-launcher-modal-close {
+    display: inline-block;
+    background-color: red;
+    border-radius: 50%;
+    position: fixed;
+    top: 5%;
+    right: 20px;
+    cursor: pointer;
+  }
+  
+  .cubbles-cubx-launcher_cubx-launcher-touchpoint-label {
+    display: block;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    padding: 5px;
+    color: #cb1f32;
+    right: 75px;
+    text-align: center;
+    width: auto;
+  }
+  
+  .cubbles-cubx-launcher_cubx-launcher-app-label {
+    display: block;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    padding: 5px;
+    color: #cb1f32;
+    position: absolute;
+    right: 55px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  /*addition*/
+  
+  iframe {
+    border: 0px solid black;
+  }
+  
