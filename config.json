@@ -12,19 +12,19 @@
             "icon": "view_quilt",
             "type": "web",
             "label": "Dashboard",
-            "url": "http:"
+            "url": "https://de.wikipedia.org/wiki/Th%C3%BCringen"
         },
         {
             "icon": "business",
             "type": "web",
             "label": "Immobilien",
-            "url": "https://portal-dev01.vs3plus.de/agency-001/immobilien"
+            "url": "https://statistik.thueringen.de/presse/pr_kurzinh.asp"
         },
         {
             "icon": "event",
             "type": "web",
             "label": "Termine",
-            "url": "https://portal-dev01.vs3plus.de/agency-001/termine"
+            "url": "https://www.wahlen.thueringen.de/datenbank/wahl1/WAHL.asp?wahlart=EW&wJahr=2019"
         }
     ]
 }
