@@ -12,7 +12,7 @@
         {
         "id": "poi-map",
         "type": "cubbles",
-        "snippet": "<getrequest-coralbird-destination-map-microwebapp cubx-webpackage-id='getrequest-coralbird-destination-map@0.2.0-SNAPSHOT'></getrequest-coralbird-destination-map-microwebapp>",
+        "snippet": "<div class='map-container'><getrequest-coralbird-destination-map-microwebapp cubx-webpackage-id='getrequest-coralbird-destination-map@0.2.0-SNAPSHOT'></getrequest-coralbird-destination-map-microwebapp></div>",
         "targetElementSelector": "#content-area"
         }
     ],

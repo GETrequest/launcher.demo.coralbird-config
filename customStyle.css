@@ -235,3 +235,6 @@
     border: 0px solid black;
   }
   
+  .map-container {
+    height: 500px;
+  }
