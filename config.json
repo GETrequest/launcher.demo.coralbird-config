@@ -7,7 +7,7 @@
         "label": "Kundenportal"
       },
     "externalStyle": "customStyle.css",
-    "cubblesRTE": "https://cubbles.world/sandbox/cubx.core.rte@2.5.1-SNAPSHOT",
+    "cubblesRTE": "https://cubbles.world/sandbox/cubx.core.rte@3.0.0-SNAPSHOT",
     "snippets": [
         {
         "id": "poi-map",
