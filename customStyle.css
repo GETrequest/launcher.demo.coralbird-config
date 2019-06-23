@@ -10,7 +10,8 @@
 */
 
 .cubbles-cubx-launcher_cubx-launcher-root {
-    display: flex;
+    /* display: flex; */
+    display: none; /* for now just disable touchpoint */
     background-color: #Cb1f32;
     border-radius: 100%;
     right: 15px;

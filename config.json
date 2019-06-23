@@ -7,24 +7,15 @@
         "label": "Kundenportal"
       },
     "externalStyle": "customStyle.css",
-    "apps": [
+    "cubblesRTE": "https://cubbles.world/sandbox/cubx.core.rte@2.5.1-SNAPSHOT",
+    "snippets": [
         {
-            "icon": "view_quilt",
-            "type": "web",
-            "label": "Dashboard",
-            "url": "https://de.wikipedia.org/wiki/Th%C3%BCringen"
-        },
-        {
-            "icon": "business",
-            "type": "web",
-            "label": "Immobilien",
-            "url": "https://statistik.thueringen.de/presse/pr_kurzinh.asp"
-        },
-        {
-            "icon": "event",
-            "type": "web",
-            "label": "Termine",
-            "url": "https://www.wahlen.thueringen.de/datenbank/wahl1/WAHL.asp?wahlart=EW&wJahr=2019"
+        "id": "poi-map",
+        "type": "cubbles",
+        "snippet": "<getrequest-coralbird-destination-map-microwebapp cubx-webpackage-id='getrequest-coralbird-destination-map@0.2.0-SNAPSHOT'></getrequest-coralbird-destination-map-microwebapp>",
+        "targetElementSelector": "#content-area"
         }
+    ],
+    "apps": [
     ]
 }
