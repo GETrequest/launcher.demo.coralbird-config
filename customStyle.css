@@ -186,7 +186,7 @@
   
   .cubbles-cubx-launcher_launcher-modal_hidden {
     display: block;
-    transform: translateY(100vh);
+    /* transform: translateY(100vh); */
   }
   
   /* .cubbles-cubx-launcher_cubx-launcher-modal-content {
